@@ -7,7 +7,7 @@ let replit_app_urls = ["https://vv.mrzyang.repl.co", "https://replit-trojan.yang
 var port = 4000
 var server = http.createServer(function (request, response) {
     response.writeHead(200, { 'Content-Type': 'text/plain'})
-    response.end('proccess to keep replit application is active ！\n')
+    response.end('proccess to keep replit application alive is running !\n')
 })
 
 server.listen(port)
